@@ -1,0 +1,72 @@
+#bootstrap-override .color2{
+    background-color: #85E6C5;
+}
+
+#bootstrap-override .color1{
+    background-color: #C8FFE0;
+}
+
+#bootstrap-override .color4{
+    background-color: #614BC3;
+}
+
+#bootstrap-override .color5{
+    background-color: #E3DFFD;
+}
+
+#bootstrap-override .text-color3{
+    color: #33BBC5;
+}
+
+#bootstrap-override .text-color4{
+    color: #614BC3;
+}
+
+#bootstrap-override .text-color1{
+    color: #C8FFE0;
+}
+
+#bootstrap-override .text-color5{
+    color: #E3DFFD;
+}
+
+#bootstrap-override .border-color4{
+    border-color: #614BC3;
+}
+
+#bootstrap-override p{
+    font-size: large;
+}
+
+#bootstrap-override .quote{
+    font-size: xx-large;
+    font-style: italic;
+    padding-left: 5rem;
+}
+
+#bootstrap-override .font-borel{
+    font-family: 'Borel', cursive;
+}
+
+#bootstrap-override .borel-title{
+    font-family: 'Borel', cursive;
+    font-size: 3rem;
+}
+
+#bootstrap-override.gradient-background {
+    background: linear-gradient(300deg, white, #C8FFE0, #E3DFFD, white);
+    background-size: 180% 180%;
+    animation: gradient-animation 5s ease infinite;
+}
+  
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
